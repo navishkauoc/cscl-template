@@ -9,6 +9,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="http://demo.spyropress.com/themeforest/cargo-pifour/xmlrpc.php" />
 	<link rel="shortcut icon" type="image/x-icon" href="http://demo.spyropress.com/themeforest/cargo-pifour/wp-content/themes/cargo-pifour/favicon.ico" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<title>Ceylon Shipping Corporation</title>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
 		.vc_custom_1527144439860 {
@@ -317,9 +318,16 @@
 					<div class="header-middle-wrap">
 						<div id="cshero-header-logo" class="site-branding header-middle-center">
 							<div class="main_logo">
-								<a class="main-logo" href="http://demo.spyropress.com/themeforest/cargo-pifour/">
-									<img alt="Cargo Pifour - Logistic and Transportation WordPress Theme" width="80px" src="assets/images/cscl_logo.jpg">
-									<h3 >Ceylon Shipping Corporation Ltd</h3>
+								<a class="main-logo" href="#">
+									<div class="row align-items-center">
+										<div class="col-md-3">
+											<img alt="Cargo Pifour - Logistic and Transportation WordPress Theme" width="150px" src="assets/images/cscl_logo.jpg">
+										</div>
+										<div class="col-md-9" style="margin-top: 35px;">
+											<h3 id="corporation-title" class="align-bottom">Ceylon Shipping Corporation Ltd</h3>
+											<h5 id="corporation-sub-title">Ceylon Shipping Corporation Ltd</h5>
+										</div>
+									</div>
 								</a>
 							</div>
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -330,9 +338,9 @@
 							</button>
 						</div>
 						<div class="header-middle-right hidden-xs hidden-sm hidden-md">
-							<aside id="cms_text-2" class="widget cms_text">
+							<!-- <aside id="cms_text-2" class="widget cms_text">
 								<div class="cms-text1">
-									<p><i class="fa fa-mobile-phone"></i></p>
+									<p><i class="fas fa-phone"></i></p>
 									<div class="block-right">
 										<p>Phone Number</p>
 										<p>01234 567 8910</p>
@@ -347,13 +355,13 @@
 										<p>info@spyropress.com</p>
 									</div>
 								</div>
-							</aside>
+							</aside> -->
 							<aside id="cms_text-3" class="widget cms_text">
 								<div class="cms-text1">
-									<p><i class="fa fa-clock-o"></i></p>
+									<p><i class="fas fa-globe"></i></p>
 									<div class="block-right">
-										<p>Working Hours</p>
-										<p>8:00 - 19:00</p>
+										<p>Language</p>
+										<p>en</p>
 									</div>
 								</div>
 							</aside>
@@ -365,7 +373,7 @@
 				<div class="main-header-wrap">
 					<div class="container">
 						<div class="main-header-outer">
-							<div id="cshero-header-navigation" class="header-navigation ">
+							<div id="cshero-header-navigation" class="header-navigation">
 								<nav id="site-navigation" class="collapse main-navigation">
 									<div class="menu-main-menu-container">
 										<ul id="menu-main-menu" class="nav-menu menu-main-menu">
@@ -412,7 +420,7 @@
 											</li>
 											<li id="menu-item-151"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-151">
-												<a href="#">About</a>
+												<a href="#">Profile</a>
 												<ul class="sub-menu">
 													<li id="menu-item-30"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
@@ -448,7 +456,7 @@
 											</li>
 											<li id="menu-item-1187"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1187">
-												<a href="#">Our Service</a>
+												<a href="#">Management</a>
 												<ul class="sub-menu">
 													<li id="menu-item-154"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154">
@@ -478,7 +486,7 @@
 											</li>
 											<li id="menu-item-404"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-404">
-												<a href="#">Features</a>
+												<a href="#">Services</a>
 												<ul class="sub-menu">
 													<li id="menu-item-826"
 														class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-826">
@@ -590,12 +598,11 @@
 											</li>
 											<li id="menu-item-28"
 												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
-												<a
-													href="http://demo.spyropress.com/themeforest/cargo-pifour/project/">Gallery</a>
+												<a href="http://demo.spyropress.com/themeforest/cargo-pifour/project/">Vessel Info</a>
 											</li>
 											<li id="menu-item-110"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-110">
-												<a href="#">Blog</a>
+												<a href="#">Agency Details</a>
 												<ul class="sub-menu">
 													<li id="menu-item-493"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-493">
@@ -680,7 +687,55 @@
 											</li>
 											<li id="menu-item-136"
 												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-136">
-												<a href="#">Contact</a>
+												<a href="#">Circulars</a>
+												<ul class="sub-menu">
+													<li id="menu-item-25"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact/">Contact
+															1</a></li>
+													<li id="menu-item-385"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact-2/">Contact
+															2</a></li>
+												</ul>
+											</li>
+											<li id="menu-item-136"
+												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-136">
+												<a href="#">Circulars</a>
+												<ul class="sub-menu">
+													<li id="menu-item-25"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact/">Contact
+															1</a></li>
+													<li id="menu-item-385"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact-2/">Contact
+															2</a></li>
+												</ul>
+											</li>
+											<li id="menu-item-136"
+												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-136">
+												<a href="#">Tenders</a>
+												<ul class="sub-menu">
+													<li id="menu-item-25"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact/">Contact
+															1</a></li>
+													<li id="menu-item-385"
+														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385">
+														<a
+															href="http://demo.spyropress.com/themeforest/cargo-pifour/contact-2/">Contact
+															2</a></li>
+												</ul>
+											</li>
+											<li id="menu-item-136"
+												class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-136">
+												<a href="#">Contact us</a>
 												<ul class="sub-menu">
 													<li id="menu-item-25"
 														class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25">
@@ -697,7 +752,7 @@
 										</ul>
 									</div>
 								</nav>
-								<div class="menu-sidebar-list hidden-xs hidden-sm hidden-md">
+								<!-- <div class="menu-sidebar-list hidden-xs hidden-sm hidden-md">
 									<aside id="cms_socials_widget-4" class=" widget widget_cms_socials_widget">
 										<ul class='cms-socials'>
 											<li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -732,7 +787,7 @@
 										</div>
 									</div>
 
-								</div>
+								</div> -->
 
 							</div>
 						</div>
