@@ -52,3 +52,17 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+/* FOOTER - START */
+#corporation-title-footer {
+    color: #0099CC;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#corporation-sub-title-footer {
+    color: #fb9b2d;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+/* FOOTER - END */
